@@ -2,6 +2,8 @@
 
 This repository provides a step-by-step guide to creating a simple Snakemake workflow. Snakemake is a powerful workflow management tool, widely used for organizing and automating data analysis pipelines, especially in bioinformatics.
 
+> Please go check the wikis of this repository, they contains many useful informations. [Wikis](https://github.com/MartinA-Gm/Tutorial_Snakemake/wiki)
+
 ## 📁 Project Structure
 Make sure your project folder follows this structure:
 ```
