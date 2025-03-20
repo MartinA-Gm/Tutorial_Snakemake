@@ -35,7 +35,7 @@ rule process_data:
     input: "data/input.txt"
     output: "data/output.txt"
     shell:
-        "awk '{print $1, $1}' {input} > {output}"
+        "awk '{{print $1, $1}}' {input} > {output}"
 ```
 - `rule all`: Defines the final target of the workflow.
 - `rule process_data`: Reads `data/input.txt` and writes to `data/output.txt` using the `awk` command.
