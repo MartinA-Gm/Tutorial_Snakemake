@@ -8,5 +8,3 @@ rule process_data:
     output: config["output_file"]
     shell:
         "awk '{print $1, $1}' {input} > {output}" 
-
-        
