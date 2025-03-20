@@ -1,0 +1,10 @@
+name: snakemake-tutorial
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - snakemake>=7.32.0
+  - graphviz>=12.2.1
+  - python>=3.9
+  - pip 
